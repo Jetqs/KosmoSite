@@ -1,0 +1,150 @@
+.one_text {
+font-size: 17px;
+font-family: cursive;
+}
+
+.body_img {
+height: 300px;
+width: 450px;
+}
+
+.nobody_img {
+height: 300px;
+width: 450px;
+}
+
+.under_img {
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-around;
+}
+
+.frowdy_img {
+height: 300px;
+width: 400px;
+}
+
+.salut_img {
+height: 300px;
+width: 400px;
+}
+
+.strelka_img {
+height: 300px;
+width: 400px;
+}
+
+.above_img {
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-around;
+}
+
+.two_text {
+font-size: 17px;
+font-family: cursive;   
+}
+
+.second_block {
+height: 100%;
+width: 100%;
+background-color: rgba(6, 143, 127);
+}
+
+.new_buttons {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.first_button {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 50px;
+}
+
+.second_button {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 50px;
+}
+
+body {
+margin: 0;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+  }
+  
+  .menu_item {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: rgba(25, 44, 112, 1);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .menu_item:hover {
+    background: white;
+    color: black;
+    border: solid 1px rgba(25, 44, 112, 1);
+  }
+  
+  .menu_item_text {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+  margin: 0;
+  }
+  
+  .email_text {
+  margin-left: 20px;
+  }
+  
+  .logo_type {
+  margin-left: 460px;
+  margin-top: 150px;
+  }
+  
+  .seryoga_content {
+  background-color: rgba(25, 44, 112, 1);
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .logotip_img {
+  height: 200px;
+  width: 400px;
+  }
+  
+  .menu_item_ref {
+      color: white;
+      text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  }
+  
+  .menu_item_ref:hover {
+      color: black;
+  }
+  
+  
+  li {display: inline;}
